@@ -1,0 +1,41 @@
+:root {
+    --primary-color: #161853;
+    --secondary-color: #292C6D;
+    --text-color-primary: #faedf0;
+    --text-color-secondary: #faedf0c9;
+    --nav-footer-color: #EC255A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+  body {
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.my-nav {
+    background-color: var(--nav-footer-color);
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+    color: var(--text-color-primary);
+}
+
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--text-color-secondary)
+}
+
+.btn {
+    background-color: var(--primary-color);
+    color: var(--text-color-primary);
+    padding: 5px 15px;
+}
+
+.btn:hover {
+    background-color: var(--secondary-color);
+    color: var(--text-color-secondary);
+}
