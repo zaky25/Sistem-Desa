@@ -6,11 +6,6 @@
     --nav-footer-color: #EC255A;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
   body {
     font-family: 'Fira Sans Condensed', sans-serif;
 }
@@ -38,4 +33,13 @@
 .btn:hover {
     background-color: var(--secondary-color);
     color: var(--text-color-secondary);
+}
+
+.carousel-caption {
+    left: 500px;
+}
+
+.carousel-caption h5 {
+    font-size: 100px;
+    top: 2rem;
 }
