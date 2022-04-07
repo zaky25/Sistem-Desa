@@ -15,6 +15,10 @@
 .my-nav {
     background-color: var(--nav-footer-color);
 }
+.navbar-light .navbar-brand {
+    font-family: 'Viga', sans-serif;
+    font-size: 32px;
+}
 
 .navbar-light .navbar-brand,
 .navbar-light .navbar-nav .nav-link {
